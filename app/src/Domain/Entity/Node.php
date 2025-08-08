@@ -3,7 +3,6 @@
 namespace App\Domain\Entity;
 
 use App\Domain\ValueObject\Language;
-use App\Domain\ValueObject\NodeLang;
 use App\Domain\ValueObject\NodeTitle;
 
 class Node
