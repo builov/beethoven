@@ -36,7 +36,7 @@ class NodeController extends AbstractController
 //         $nodes = $connection->fetchAllAssociative('SELECT * FROM beeth_node');
 
         return $this->render('node/index.html.twig', [
-            'title' => $response->node->getTitle()->getValue(),
+            'title' => $response->title,
         ]);
     }
 }

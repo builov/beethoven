@@ -16,6 +16,6 @@ class GetNodeUseCase
     {
         $node = $this->nodeRepository->findById($getNodeRequest->nid);
 
-        return new GetNodeResponse($node);
+        return new GetNodeResponse($node->getTitle()->getValue());
     }
 }

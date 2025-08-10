@@ -7,7 +7,7 @@ use App\Domain\Entity\Node;
 class GetNodeResponse
 {
     public function __construct(
-        public readonly Node $node,
+        public readonly string $title,
     )
     {
     }
